@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #BBC6C8;
+}
+header{
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 90%;
+    height: 78px;
+    background-color: #5BA199;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    position: absolute;
+    left: 25%;
+    height: 294px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.nav button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.About_Us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.About_Us-div{
+    display: flex; 
+    flex-direction: column; 
+    height: 802px;
+    width: 90%;
+    background-color: #E5E3E4;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.About_Us-divc{
+    display: flex; 
+    flex-direction: column; 
+    height: 802px;
+    width: 100%;
+    border-radius: 30px;
+}
+.About_Us-divc img{
+    width: 701px;
+    height: 672px;
+}
+.About_Us-block{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: 800px;
+}
+.About_Us-block p{
+    padding: 20px;
+}
+.About_Us-top{
+    width: 100%;
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.shop{
+    height: 1148px;
+    width: 1084px;
+    background-color: #E5E3E4;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid black;
+
+}
+.shop p{
+    width: 100%;
+    height: 116px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    max-height: 1040px;
+}
+.Pharmacy{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.Pharmacy-name{
+    width: 1084px;
+    display: flex;
+    justify-content: center;
+    height: 168px;
+    font-size: 60px;
+}
+.Pharmacy-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    background-color: #D9D9D9;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 461px;
+    width: 410px;
+}
+.img{
+    width: 100%;
+    height: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-p{
+    height: 103px;
+    font-size: 25px;
+}
+.text-p p{
+    height: 50px;
+}
+.product-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-r div{
+    height: 564px;
+    width: 535px;
+    background-color: #E5E3E4;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid black;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 270px;
+    background-color: #5BA199;
+    border-top: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+footer>div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>div>div{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Pharmacy-div{
+    background-color: #E5E3E4;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.putin{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
