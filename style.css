@@ -205,6 +205,14 @@ footer>div>div{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-evenly;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border: 1px solid black;
 }
 .putin{
     background-repeat: no-repeat;
